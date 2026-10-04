@@ -1,0 +1,15 @@
+{
+  "n_runs": 1800,
+  "master_seed": 20260918,
+  "precision_levels": [
+    "P0_unsurveyed",
+    "P1_low",
+    "P2_medium",
+    "P3_high"
+  ],
+  "raw_runs_format": "parquet",
+  "horizon_steps": 10,
+  "target_coverage": 0.9,
+  "generated_at": "2026-10-04T16:12:58.766489+00:00",
+  "git_commit": "b7ff3c16b477bb67013bec2ab7a77b0fb93d361c"
+}

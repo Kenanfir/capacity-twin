@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated paper."
+title: "Capacity-twin: a synthetic simulation of capacity alerts under geometry uncertainty"
+type: software
+authors:
+  - family-names: Damastuti
+    given-names: Fardani Annisa
+  - family-names: Hasim
+    given-names: Jauari Akhmad Nur
+  - family-names: Fananda
+    given-names: Ibrohim Yofid
+  - family-names: Pramulen
+    given-names: Aji Sapta
+  - family-names: Arif
+    given-names: Yunifa Miftachul
+license: MIT
+date-released: 2026-10-04
