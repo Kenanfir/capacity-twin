@@ -75,3 +75,16 @@ errors. See the paper's Limitations discussion.
 ## License and citation
 
 MIT License (see `LICENSE`). Citation details are in `CITATION.cff`.
+
+## Robustness experiments (added for the IEEE Access version)
+
+    python3 extended_experiments.py                  # about 45 s; writes results/extended_*.csv
+    python3 analysis/make_extended_figures.py
+    python3 analysis/make_ieee_figures.py
+
+Covers a continuous survey-error sweep, the alert level, the forecast horizon, the
+conformal coverage check, and three peak-demand scenarios, on the same 1,800 worlds.
+
+Second batch (about three minutes): `python3 extended_experiments2.py` writes `results/extended2_*.csv`
+(a 9,000-world replicate, systematic and heavy-tailed survey error, four forecasters, calibration shift);
+rerun `analysis/make_extended_figures.py` afterwards.
