@@ -88,3 +88,7 @@ conformal coverage check, and three peak-demand scenarios, on the same 1,800 wor
 Second batch (about three minutes): `python3 extended_experiments2.py` writes `results/extended2_*.csv`
 (a 9,000-world replicate, systematic and heavy-tailed survey error, four forecasters, calibration shift);
 rerun `analysis/make_extended_figures.py` afterwards.
+
+Third batch (about three minutes): `python3 extended_experiments3.py` writes `results/extended3_*.csv`
+(event-level detection with exact intervals, false-alarm burden, a matched-false-alarm safety factor, a
+risk-controlled factor, and the prior and even-split estimates, on the 9,000-world replicate).

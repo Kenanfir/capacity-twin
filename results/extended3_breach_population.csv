@@ -1,0 +1,2 @@
+n_test_worlds,n_breach_worlds,mean_true_capacity_all,mean_true_capacity_breach,min_true_capacity_breach,max_true_capacity_breach,median_breach_minutes,margin_q
+4500,63,202.5260624588476,148.2396332752822,115.65552016510792,180.24870497616348,8.0,38.0
