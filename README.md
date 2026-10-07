@@ -1,9 +1,8 @@
 # Capacity-twin: a synthetic simulation of capacity alerts under geometry uncertainty
 
-Code, seed, and results behind the paper *Conformal-Calibrated Capacity
-Alerts Under Geometry Uncertainty: A Decision-Support Simulation for Cultural
-Heritage Site Management* (submitted to the Journal of Intelligent Decision
-Making and Information Science).
+Code, seed, and results behind the paper *How Survey Precision Limits
+Crowd-Capacity Alerts: A Simulation Study of Conformal and Risk-Controlled
+Margins for Heritage Sites*.
 
 **Everything here is synthetic.** Zone geometry, visitor arrivals, dwell
 times, and queues are simulated. No real visitor, occupancy, survey, or
@@ -76,7 +75,7 @@ errors. See the paper's Limitations discussion.
 
 MIT License (see `LICENSE`). Citation details are in `CITATION.cff`.
 
-## Robustness experiments (added for the IEEE Access version)
+## Robustness experiments
 
     python3 extended_experiments.py                  # about 45 s; writes results/extended_*.csv
     python3 analysis/make_extended_figures.py
